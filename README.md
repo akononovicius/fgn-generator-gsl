@@ -1,0 +1,4 @@
+# Fractional Gaussian noise generator
+The code in this repository is an implementation of the approximate circulant algorithm used to generate fractional Gaussian noise. This algorithm was proposed in a paper by Dieker and Mendes [Dieker and Mendes (2003)](https://doi.org/10.1017/S0269964803173081).
+
+This implementation of the algorithm heavily reuses code made available by Ton Dieker at [http://www.columbia.edu/~ad3217/fbm.html](http://www.columbia.edu/~ad3217/fbm.html). The main difference from the previous implementation is that this implementation relies on [GNU Scientific Library](https://www.gnu.org/software/gsl/) instead of [Ranlib and Meschach](http://www.netlib.org/). The possibility to generate fractional Brownian motion was also removed as it is redundant. Namely this functionality can be implemented outside this generation algorithm.
