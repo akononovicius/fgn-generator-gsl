@@ -7,7 +7,6 @@
 /*  Modified to be used with GSL (instead of Netlib libraries) by           */
 /*  Aleksejus Kononovicius                                                  */
 
-#include <math.h>
 #include <gsl/gsl_errno.h>
 #include <gsl/gsl_rng.h>
 #include <gsl/gsl_randist.h>
